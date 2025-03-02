@@ -15,13 +15,13 @@ Check out the live demo here:
 
 ## Technologies Used
 
-**Next.js:** Frontend Framework
-**Redux Toolkit:** State Management
-**Node.js:** Backend API
-**Prisma:** ORM for Database
-**AWS RDS:** MySQL Database
-**AWS S3:** File Storage
-**AWS Amplify:** Frontend Deployment
-**API Gateway:** API Routing
-**EC2:** Backend Deployment
+- **Next.js:** Frontend Framework
+- **Redux Toolkit:** State Management
+- **Node.js:** Backend API
+- **Prisma:** ORM for Database
+- **AWS RDS:** MySQL Database
+- **AWS S3:** File Storage
+- **AWS Amplify:** Frontend Deployment
+- **API Gateway:** API Routing
+- **EC2:** Backend Deployment
 
