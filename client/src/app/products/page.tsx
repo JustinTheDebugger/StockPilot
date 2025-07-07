@@ -34,15 +34,9 @@ const Products = () => {
   }
 
   if (isError || !products) {
-    return (
-      <div className="text-center text-red-500 py-4">
-        Failed to fetch products
-      </div>
-    );
-  }
-
-  if (products.length === 0) {
-    return <div className="text-center py-4">No Products found</div>;
+    <div className="text-center text-red-500 py-4">
+      Failed to fetch products
+    </div>;
   }
 
   return (

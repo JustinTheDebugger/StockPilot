@@ -104,9 +104,5 @@
     /* Completeness */
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
-  },
-  "include": [
-    "server/src/**/*.ts",      // Include all .ts files in the src directory
-    "server/src/**/*.tsx"      // Include all .tsx files if using React
-  ],
+  }
 }
