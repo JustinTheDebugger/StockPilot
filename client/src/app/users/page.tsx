@@ -8,7 +8,6 @@ const columns: GridColDef[] = [
   { field: "userId", headerName: "ID", width: 90 },
   { field: "name", headerName: "Name", width: 200 },
   { field: "email", headerName: "Email", width: 200 },
-  
 ];
 
 const Users = () => {
@@ -20,9 +19,7 @@ const Users = () => {
 
   if (isError || !users) {
     return (
-      <div className="text-center text-red-500 py-4">
-        Failed to fetch products
-      </div>
+      <div className="text-center text-red-500 py-4">Failed to fetch users</div>
     );
   }
 

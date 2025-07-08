@@ -79,6 +79,14 @@ const CreateProductModal = ({
           ? parseFloat(value)
           : value,
     });
+
+    setFormData((prev) => ({
+      ...prev,
+      [name]:
+        name === "price" || name === "stockQuantity" || name === "rating"
+          ? parseFloat(value)
+          : value,
+    }));
   };
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
